@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  z-index: 1;
 }
 
 .lithekod {
@@ -8,6 +9,16 @@
   top: 30px;
   left: 30px;
 }
+
+.WishList {
+  width: 40%;
+  text-align: center;
+  position: relative;
+  top: 10%;
+  left: 0%;
+  z-index: 2;
+  }
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

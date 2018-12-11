@@ -2,14 +2,19 @@ import React, { Component } from 'react';
 import Snow from 'react-snow-effect';
 import SnowStorm from 'react-snowstorm';
 import './App.css';
+import TodoList from './TodoList';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+
         <img src={require('./lithekod.png')} className="lithekod" alt="lithekod" />
+
+        <SnowStorm />
+
         <header className="App-header">
-          <img src="http://res.publicdomainfiles.com.s3.amazonaws.com/pdf_alternate/57/13529242816467.svg?AWSAccessKeyId=AKIAJBE24BKMOLMJBBXA&Expires=1544551784&Signature=5N22jLtwFXQHxTXwkdXDk8W6GhE%3D" className="App-logo" alt="logo" />
+          <img src="https://www.pngarts.com/files/2/Snowflakes-Transparent-Background-PNG.png" className="App-logo" alt="logo" />
           <p> Welcome to Santa's (Lithe kod's) secret wish site. </p>
           <p> Please make a wish</p>
           <a
@@ -20,8 +25,10 @@ class App extends Component {
           >
             Lithe Jul
           </a>
+          <div className="WishList">
+            <TodoList />
+          </div>
         </header>
-        <SnowStorm />
       </div>
     );
   }
