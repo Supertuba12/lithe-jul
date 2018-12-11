@@ -8,7 +8,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
+        <img src={require('./lithekod.png')} className="lithekod" alt="lithekod" />
+
         <SnowStorm />
+
         <header className="App-header">
           <img src="https://www.pngarts.com/files/2/Snowflakes-Transparent-Background-PNG.png" className="App-logo" alt="logo" />
           <p> Welcome to Santa's (Lithe kod's) secret wish site. </p>
