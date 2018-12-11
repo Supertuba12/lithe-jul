@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
 
         <img src={require('./lithekod.png')} className="lithekod" alt="lithekod" />
-
+        <img src={require('./opera-logo.png')} className="opera" alt="operalogo" />
         <SnowStorm />
 
         <header className="App-header">
